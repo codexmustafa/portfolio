@@ -97,7 +97,7 @@ function Nav() {
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
         <a href="#" className="font-bold tracking-wider text-accent"
           style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "0.12em", fontSize: "1.1rem" }}>
-          ELENA<span style={{ color: "#C8960C" }}>.</span>
+          MOHAMMED MUSTAFA<span style={{ color: "#C8960C" }}>.</span>
         </a>
         <div className="hidden md:flex items-center gap-10">
           {["Work", "About", "Services", "Contact"].map(l => (
@@ -387,7 +387,7 @@ function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }} className="flex items-center gap-3 mb-8">
             <div className="w-8 h-px" style={{ background: "#C8960C" }} />
             <span className="text-xs tracking-[0.3em] uppercase" style={{ color: "#C8960C", fontFamily: "'DM Mono', monospace" }}>
-              Web Designer & Creative Director
+              Web Designer
             </span>
           </motion.div>
 
@@ -411,7 +411,7 @@ function Hero() {
             transition={{ duration: 0.8, delay: 0.65 }}
             className="mt-8 max-w-md text-lg leading-relaxed"
             style={{ color: "rgba(242,226,192,0.6)", fontFamily: "'DM Sans', sans-serif", fontWeight: 300 }}>
-            Elena Vasquez — independent web designer with 8 years shaping digital presence for luxury brands, startups, and studios.
+            MOHAMMED MUSTAFA — independent web designer with 8 years shaping digital presence for luxury brands, startups, and studios.
           </motion.p>
 
           {/* CTA */}
@@ -553,7 +553,7 @@ function About() {
             <div className="absolute -inset-3 pointer-events-none" style={{ background: "linear-gradient(135deg, rgba(200,150,12,0.15), transparent)", borderRadius: "6px" }} aria-hidden />
             <div className="relative overflow-hidden" style={{ borderRadius: "4px", aspectRatio: "3/4" }}>
               <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&h=1067&fit=crop&auto=format&crop=face"
-                alt="Elena Vasquez, web designer" className="w-full h-full object-cover" />
+                alt="MOHAMMED MUSTAFA , web designer" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(12,7,2,0.6) 0%, transparent 60%)" }} />
             </div>
             <div className="absolute -bottom-6 -right-6 px-6 py-5" style={{ background: "#C8960C", borderRadius: "4px" }}>
@@ -576,7 +576,7 @@ function About() {
           </FadeUp>
           <FadeUp delay={0.3}>
             <p className="mt-6 text-base leading-relaxed" style={{ color: "rgba(242,226,192,0.65)", fontFamily: "'DM Sans', sans-serif" }}>
-              I&apos;m Elena Vasquez, an independent web designer based between Madrid and New York. I work with brands who believe that the quality of an interface reflects the quality of a company&apos;s values.
+              I&apos;m MOHAMMED MUSTAFA , an independent web designer based between Madrid and New York. I work with brands who believe that the quality of an interface reflects the quality of a company&apos;s values.
             </p>
             <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(242,226,192,0.65)", fontFamily: "'DM Sans', sans-serif" }}>
               My approach starts with listening — to the founders, the users, the competitors, and the market — then moves swiftly into making. I believe great design is earned, not decorated.
@@ -670,11 +670,11 @@ function Contact() {
         </FadeUp>
         <FadeUp delay={0.2}>
           <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:elena@vasquez.design"
+            <a href="mailto:codexmustafa@gmail.com"
               className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-sm tracking-widest uppercase transition-all duration-300"
               style={{ fontFamily: "'DM Sans', sans-serif", letterSpacing: "0.12em", background: "linear-gradient(135deg, #C8960C, #F0C040)", color: "#0C0702", fontWeight: 600, borderRadius: "2px" }}>
               <Mail size={16} />
-              elena@vasquez.design
+              codexmustafa@gmail.com
             </a>
             <a href="#"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 text-sm tracking-widest uppercase transition-all duration-300 hover:border-primary"
@@ -686,7 +686,7 @@ function Contact() {
         </FadeUp>
         <FadeUp delay={0.3}>
           <div className="mt-16 flex items-center justify-center gap-6">
-            {["Instagram", "Twitter", "LinkedIn", "Dribbble"].map(s => (
+            {["Instagram", "Reddit", "LinkedIn", "Twitter" ].map(s => (
               <a key={s} href="#"
                 className="text-xs tracking-widest uppercase transition-colors duration-300 hover:text-accent"
                 style={{ color: "rgba(242,226,192,0.35)", fontFamily: "'DM Mono', monospace" }}>{s}</a>
@@ -704,8 +704,8 @@ function Footer() {
   return (
     <footer className="py-8" style={{ background: "#0C0702", borderTop: "1px solid rgba(200,150,12,0.12)" }}>
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-        <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.1rem", color: "#C8960C", letterSpacing: "0.1em" }}>ELENA<span style={{ color: "rgba(242,226,192,0.4)" }}>.</span></span>
-        <p className="text-xs" style={{ color: "rgba(242,226,192,0.3)", fontFamily: "'DM Mono', monospace" }}>© 2024 Elena Vasquez · All rights reserved</p>
+        <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.1rem", color: "#C8960C", letterSpacing: "0.1em" }}>MOHAMMED MUSTAFA<span style={{ color: "rgba(242,226,192,0.4)" }}>.</span></span>
+        <p className="text-xs" style={{ color: "rgba(242,226,192,0.3)", fontFamily: "'DM Mono', monospace" }}>© 2024 MOHAMMED MUSTAFA · All rights reserved</p>
         <p className="text-xs" style={{ color: "rgba(200,150,12,0.4)", fontFamily: "'DM Mono', monospace" }}>Madrid · New York</p>
       </div>
     </footer>
