@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { ArrowUpRight, Mail, ArrowDown, TrendingUp, Award, Globe } from "lucide-react";
+import aiimg from '../imports/ai.jpeg'
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 
@@ -552,7 +553,8 @@ function About() {
           <div className="relative">
             <div className="absolute -inset-3 pointer-events-none" style={{ background: "linear-gradient(135deg, rgba(200,150,12,0.15), transparent)", borderRadius: "6px" }} aria-hidden />
             <div className="relative overflow-hidden" style={{ borderRadius: "4px", aspectRatio: "3/4" }}>
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&h=1067&fit=crop&auto=format&crop=face"
+              <img src={aiimg}
+              // <img src="../imports/aiimg.jpeg"
                 alt="MOHAMMED MUSTAFA , web designer" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(12,7,2,0.6) 0%, transparent 60%)" }} />
             </div>
@@ -686,7 +688,7 @@ function Contact() {
         </FadeUp>
         <FadeUp delay={0.3}>
           <div className="mt-16 flex items-center justify-center gap-6">
-            {["Instagram", "Reddit", "LinkedIn", "Twitter" ].map(s => (
+            {["Instagram", "Reddit", "LinkedIn", ].map(s => (
               <a key={s} href="#"
                 className="text-xs tracking-widest uppercase transition-colors duration-300 hover:text-accent"
                 style={{ color: "rgba(242,226,192,0.35)", fontFamily: "'DM Mono', monospace" }}>{s}</a>
